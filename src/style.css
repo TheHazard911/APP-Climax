@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+.sigmar-regular {
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+:root {
+    --primary-color: #010114e3;
+    --secondary-color: #2ecc71;
+    --background-color: #f0f0f0;
+    --text-color: #333;
+    --font-family: Arial, sans-serif;
+    --line-height: 1.6;
+    --padding: 8px;
+    --border-color: #ddd;
+    --text-color: #FFF;
+}
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+input, textarea {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.content{
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 4rem;
+}
+.position-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.position-forms{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.container-forms{
+    padding: 3rem;
+    background-color: #f3f3f323;
+    border-radius: 1rem;
+    width: 70%;
+}
+.title-one{
+    font-size: 3rem;
+    font-weight: 700;
+    border-bottom: 1px solid white;
+}
+.position-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+.card-columns{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+.text-content{
+    flex-wrap: wrap;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 3rem;
+    text-align: justify;
+    font-size: 1.2rem;
+}
