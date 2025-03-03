@@ -2,7 +2,7 @@
   "name": "app-climax",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/TheHazard911/APP-Climax.git",
+  "homepage": "https://TheHazard911.github.io/APP-Climax",
   "type": "module",
   "scripts": {
     "dev": "vite",
